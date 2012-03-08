@@ -1,0 +1,7 @@
+Solution to finding closest points within a unit square.
+
+Given d, we want to know how many pairs from N randomly generated points in the unit square can be connected
+by a straight line of length less than d.
+
+closest_point_naive.c - contains naive solution using a simple 1D array.
+closest_point_better.c - contains a better solution using compound data structures. 
