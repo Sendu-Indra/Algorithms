@@ -5,7 +5,7 @@ void findPivot( int *array, int left, int right )
     if( right > left )
     {
         int median, temp;
-        int mid = ( left + right ) / right;
+        int mid = ( left + right ) / 2;
         int a = array[left];
         int b = array[right];
         int c = array[mid];
@@ -65,7 +65,7 @@ void quickSort( int *array, int left, int right )
 int main()
 {
     int i;
-    int test[] = { 3, 8, 2, 5, 1, 4, 7, 6 };
+    int test[] = { 2, 4, 5, 1, 3, 6 };
     int size = sizeof( test ) / sizeof( test[0] );
 
     quickSort( test, 0, size - 1 );
