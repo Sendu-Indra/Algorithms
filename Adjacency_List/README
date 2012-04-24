@@ -1,0 +1,2 @@
+Quick implementation of an adjacency list (only vertices) and a header
+interface, so that it can be used in other programs.
