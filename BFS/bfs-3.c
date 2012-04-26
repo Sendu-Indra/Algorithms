@@ -70,6 +70,8 @@ int main()
     int target = 1;
     int found = 0;
 
+    q = ( Queue * )malloc( sizeof( Queue ) );
+
     for( i = 0; i < 5; i++ )
         visited[i] = 0;
 
